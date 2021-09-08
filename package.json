@@ -1,0 +1,23 @@
+{
+    "scripts": {
+        "server": "nodemon server/index.js",
+        "client": "cd client && yarn start",
+        "start": "concurrently \"yarn run server\" \"yarn run client\"",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "axios": "^0.21.4",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "googleapis": "^85.0.0",
+        "nodemon": "^2.0.12"
+    },
+    "devDependencies": {
+        "body-parser": "^1.19.0",
+        "concurrently": "^6.2.1",
+        "express": "^4.17.1",
+        "nodemailer": "^6.6.3",
+        "nodemailer-mailgun-transport": "^2.1.3"
+    }
+}
