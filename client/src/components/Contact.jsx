@@ -11,9 +11,9 @@ const Contact = ({ data }) => {
     message,
   } = data;
   const [info, setInfo] = useState({
-    contactName: "Ulrich",
-    contactEmail: "asd",
-    contactMessage: "asd",
+    contactName: "",
+    contactEmail: "",
+    contactMessage: "",
   });
 
   console.log(info);

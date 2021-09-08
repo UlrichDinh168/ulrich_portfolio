@@ -29,7 +29,7 @@ const Header = ({ data }) => {
     }
   });
 
-  const { name, occupation, description, social } = data;
+  const { name, occupation, description, social, resumedownload } = data;
 
   const networks = social.map((network) => {
     return (
@@ -62,15 +62,24 @@ const Header = ({ data }) => {
             <br />
             <p className="description">{description}</p>
             <ul className="social">{networks}</ul>
+            <div className="row">
+              <div className="columns download">
+                <p>
+                  <a href={resumedownload} target="_blank" className="button">
+                    <i className="fa fa-download"></i>Download Resume
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="toggle" onClick={onToggleDrawer}>
+        {/* <div className="toggle" onClick={onToggleDrawer}>
           {!openDrawer ? (
             <i className="fas fa-align-justify"></i>
           ) : (
             <i className="fas fa-times"></i>
           )}
-        </div>
+        </div> */}
 
         {/* <nav id="nav-wrap"> */}
         <nav>

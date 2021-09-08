@@ -2,7 +2,7 @@ export const data = {
   main: {
     name: "Duong Dinh",
     occupation: "Web Developer",
-    description: "A hard-working web developer with 2 years of experience in developing UI application, with a flair for creating elegant solutions and web interface, who has participated in maintaining and building web interfaces, currently been acquiring backend knowledge and aiming to become a full-stack developer. Seeking to take the next career step with a respected organization.",
+    description: "A hard-working web developer who has a passion of developing feature-rich UI applications, with a flair for creating elegant solutions and web interfaces. Participated in maintaining and building several web applications, currently been acquiring backend knowledge and aiming to become a full-stack developer. Seeking to take the next career step with a respected organization.",
     image: "profilepic.jpg",
     bio: "My name is Duong Dinh. After graduating from a university in Finland, I am quite focused on making my career in the Web development sector, especially in creating Web pages with feature-rich user experience and a beautiful interface. I have built several web applications using React/Redux as well as some of the related software. I have joined a start-up company, which I learned a lot of skills. Having the access to the codebase from various projects, I had a chance to observe other developer's coding styling, tips and tricks, and how to work as a team member in a large project. I'm currently seeking opportunities and challenges in a product company, and of course, new mentors that I can learn from :D.",
     contactmessage: "Feel free to contact me via email or phone.",
