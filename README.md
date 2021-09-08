@@ -1,7 +1,7 @@
 # ulrich_portfolio
 
 <h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Simplefolio" width="600px" />
+  <img src="https://github.com/UlrichDinh168/ulrich_portfolio/blob/master/ezgif.com-gif-maker.gif" />
   <br>
 </h2>
 
