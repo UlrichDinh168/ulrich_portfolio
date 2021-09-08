@@ -30,13 +30,16 @@ yarn@v1.21.1 or higher
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cobidev/simplefolio
+$ git clone https://github.com/UlrichDinh168/ulrich_portfolio.git
 
 # Go into the repository
-$ cd simplefolio
+$ cd portfolio
 
-# Remove current origin repository
-$ git remote remove origin
+- `npm install` or `yarn install`: Install server side dependencies.
+- `npm run client-install` or `cd ./client && yarn install`: Install client side dependencies.
+
+- `npm run server` or `yarn server`: Start the server.
+- `npm run client` or `yarn client`: Start the client.
 ```
 
 Then you can install the dependencies either using NPM or Yarn:
