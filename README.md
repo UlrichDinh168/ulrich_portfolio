@@ -5,17 +5,11 @@
   <br>
 </h2>
 
-## Features
-- Modern UI Design + Reveal Animations\
-- One Page Layout\
-- Styled with Styled Component and SCSS
-- Fully Responsive
-- Valid HTML5 & CSS3
-- Optimized with Webpack
-
+## Tech stack
+ - Frontend: React.
+ - Backend: Node.js - Express.
+ - Deployment: Netlify
 ---
-
-## Getting Started 🚀
 
 ### Prerequisites 📋
 ```
@@ -33,8 +27,6 @@ yarn@v1.21.1 or higher
 ---
 
 ## How To Use 🔧
-
-From your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
